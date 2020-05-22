@@ -1,44 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pedro Quintans</title>
-    <link rel="stylesheet" href="css/estilos.css">
-  </head>
 
-  <body>
-    <header>
-      <nav class="menu">
-        <ul>
-          <li><a href="#">Sobre</a></li>
-          <li><a href="#">Portfólio</a></li>
-          <li><a href="#">Contato</a></li>
-        </ul>
-      </nav>
-      <div>
-        <h1 class="site-title">Pedro Quintans</h1>
-        <h2 class="site-subtitle">Estudante</h2>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pedro Quintans</title>
+  <link rel="stylesheet" href="css/estilos.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Dancing+Script&family=Source+Code+Pro:wght@400;700&display=swap"
+    rel="stylesheet">
+    <script src="https://kit.fontawesome.com/88ffdc67b2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <nav class="menu">
+      <ul class="container">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+    <div class="title">
+      <h1 class="site-title">Pedro Quintans</h1>
+      <h2 class="site-subtitle">Estudante</h2>
+      <h2 class="site-subtitle">Aspirante à Progamador</h2>
+    </div>
+  </header>
+  <section class="sobre container" id="sobre">
+    <h2>Sobre</h2>
+    <figure class="profile">
+      <img src="./img/Perfil.jpg" alt="Pedro Losso Quintanss">
+    </figure>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, expedita. Ullam atque hic nam officia qui mollitia eos beatae dignissimos minus? Atque, ducimus! Fugiat assumenda totam at expedita ab id!
+    </p>
+    <p>
+      Natus quibusdam est asperiores quaerat rem porro adipisci, eius accusamus ipsum provident. Quaerat quidem vero tempore temporibus aperiam, aut asperiores, quos eum debitis tempora unde quia, similique consequatur. Eos, quos.
+    </p>       
+    <p>
+      Doloribus ipsa eveniet, perferendis voluptates, magni consequuntur enim consectetur exercitationem deleniti, cupiditate fuga! Officia tempora ad repellat. Molestias, perspiciatis cupiditate facere pariatur vitae doloremque in aut. Consequatur quia sed asperiores.
+    </p>
+    <p>
+      Este site foi construído durante a <a href="https://www.alura.com.br/imersao-css">Imersão CSS da Alura</a> :)
+    </p>
+    
+
+  </section>
+  <section class="projetos container" id="projetos">
+    <h2>Projetos</h2>
+    <div class="grid"> 
+      <div class="flip-card">
+        <div class="card"> 
+          <figure class="card-front">
+            <img class="img-projetos" src="./img/alura.png" alt="Alura">
+            <figcaption>Alura</figcaption>
+          </figure>
+          <div class="card-back">
+              Oi eu sou a parte de trás
+          </div>
+        </div>
       </div>
-    </header>
-    <section>
-      <h2>Portfólio</h2>
-      <figure>
-        <img class="img-portfolio" src="./img/ecommerce-creditos-s-o-c-i-a-l-c-u-t-unsplash.jpg" alt="eCommerce">
-        <figcaption>eCommerce</figcaption>
-      </figure>
-      <figure>
-        <img class="img-portfolio" src="./img/mobile-creditos-nate-grant-unsplash.jpg" alt=">Mobile">
-        <figcaption>Mobile</figcaption>
-      </figure>
-      <figure>
-        <img class="img-portfolio" src="./img/webdesign-creditos-domenico-loia-unsplash.jpg" alt="Web design">
-        <figcaption>Web design</figcaption>
-      </figure>
-      <figure>
-        <img class="img-portfolio" src="./img/projpessoais-creditos-hal-gatewood-unsplash.jpg" alt="Projetos pessoais">
-        <figcaption>Projetos pessoais</figcaption>
-      </figure>
-    </section>
-  </body>
+      <div class="flip-card">
+        <div class="card"> 
+          <figure class="card-front">
+            <img class="img-projetos" src="./img/caelum.png" alt="Caelum">
+            <figcaption>Caelum</figcaption>
+          </figure>
+          <div class="card-back">
+              Oi eu sou a parte de trás
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="card"> 
+          <figure>
+            <img class="img-projetos" src="./img/hispters.png" alt="Hipsters.Tech">
+            <figcaption>Hipsters.Tech</figcaption>
+          </figure>
+          <div class="card-back">
+              Oi eu sou a parte de trás
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="card"> 
+          <figure>
+            <img class="img-projetos" src="./img/likeaboss.png" alt="Like a Boss">
+            <figcaption>Like a Boss</figcaption>
+          </figure>
+          <div class="card-back">
+              Oi eu sou a parte de trás
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="card"> 
+          <figure>
+            <img class="img-projetos" src="./img/hobby.png" alt="Handstand">
+            <figcaption>Handstand</figcaption>
+          </figure>
+          <div class="card-back">
+            Oi eu sou a parte de trás
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="contato container" id="contato">
+    <h2>Contato</h2>
+    <div class="grid icons">
+      <a target="_blank" href="https://github.com/pQuintans">
+        <i class="fab fa-github"></i>
+      </a>
+      <a target="_blank" href="https://twitter.com/DCaixote">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a target="_blank" href="mailto:caixote.dom@gmail.com">
+        <i class="fas fa-envelope"></i>
+      </a>
+      <a target="_blank" href="https://www.instagram.com/pedroquintanss">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </div>
+  </section>
+</body>
+
 </html>
